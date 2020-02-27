@@ -13,10 +13,9 @@ import Foundation
 
 //about NumericProtocol
 //exampleNumericProtocol()
+
 //example_Reduce_ToNumbersSum()
-example_Flatmap_unwrapOptional()
-
-
+//example_Flatmap_unwrapOptional()
 
 
 
