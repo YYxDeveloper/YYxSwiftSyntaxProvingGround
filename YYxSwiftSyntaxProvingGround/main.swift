@@ -8,4 +8,16 @@
 
 import Foundation
 
-exampleUniversalSelf()
+//about swift5.1
+//exampleUniversalSelf()
+
+//about NumericProtocol
+//exampleNumericProtocol()
+//example_Reduce_ToNumbersSum()
+example_Flatmap_unwrapOptional()
+
+
+
+
+
+
