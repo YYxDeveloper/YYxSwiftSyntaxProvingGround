@@ -17,6 +17,4 @@ import Foundation
 //example_Reduce_ToNumbersSum()
 //example_Flatmap_unwrapOptional()
 
-
-
-
+//exampleTypealias()
