@@ -61,4 +61,5 @@ func example_Some_returnProtocol() {
     print(aa)
     
 }
-example_Some_returnProtocol()
+//example_Some_returnProtocol()
+exampleOfEnumInit()
