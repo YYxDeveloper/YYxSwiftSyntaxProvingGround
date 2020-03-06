@@ -62,4 +62,17 @@ func example_Some_returnProtocol() {
     
 }
 //example_Some_returnProtocol()
-exampleOfEnumInit()
+//exampleOfEnumInit()
+class MyFoo {
+    @Published var bar: String
+    init(bar: String) {
+        self.bar = bar
+    }
+}
+let foo = MyFoo(bar: "bar")
+let barSink = foo.$bar
+    .sink() {
+        print("bar value: \($0)")
+}
+let aa = MyFoo(bar: "cccc")
+
