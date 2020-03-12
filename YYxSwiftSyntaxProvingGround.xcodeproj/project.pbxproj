@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3334248C240CE82100449DAD /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3334248B240CE82100449DAD /* enums.swift */; };
+		336A63FF2419DDE300EC3398 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A63FE2419DDE300EC3398 /* Combine.swift */; };
+		336A64032419DEDF00EC3398 /* switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A64022419DEDF00EC3398 /* switch.swift */; };
 		33B935E3240681C600C051CF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B935E2240681C600C051CF /* main.swift */; };
 		33C50A0D24068B2E00345DFC /* v5.1feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C50A0C24068B2E00345DFC /* v5.1feature.swift */; };
 		33C50A102407704A00345DFC /* Sequence+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C50A0F2407704A00345DFC /* Sequence+Numeric.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		3334248B240CE82100449DAD /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		336A63FE2419DDE300EC3398 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		336A64022419DEDF00EC3398 /* switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switch.swift; sourceTree = "<group>"; };
 		33B935DF240681C600C051CF /* YYxSwiftSyntaxProvingGround */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YYxSwiftSyntaxProvingGround; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B935E2240681C600C051CF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		33C50A0C24068B2E00345DFC /* v5.1feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v5.1feature.swift; sourceTree = "<group>"; };
@@ -50,6 +54,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		336A63FD2419DDBC00EC3398 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				336A63FE2419DDE300EC3398 /* Combine.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		336A64002419DE9E00EC3398 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				336A64012419DECA00EC3398 /* switch */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		336A64012419DECA00EC3398 /* switch */ = {
+			isa = PBXGroup;
+			children = (
+				336A64022419DEDF00EC3398 /* switch.swift */,
+			);
+			path = switch;
+			sourceTree = "<group>";
+		};
 		33B935D6240681C600C051CF = {
 			isa = PBXGroup;
 			children = (
@@ -69,9 +97,11 @@
 		33B935E1240681C600C051CF /* YYxSwiftSyntaxProvingGround */ = {
 			isa = PBXGroup;
 			children = (
+				336A64002419DE9E00EC3398 /* Basic */,
 				33B935E2240681C600C051CF /* main.swift */,
 				33C50A182407BB8100345DFC /* Typealias.swift */,
 				3334248B240CE82100449DAD /* enums.swift */,
+				336A63FD2419DDBC00EC3398 /* Combine */,
 				33C50A122407785700345DFC /* Collection type */,
 				33C50A152407AEF000345DFC /* Protocol */,
 				33C50A0B24068AF200345DFC /* Swift5.1Feature */,
@@ -170,11 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336A64032419DEDF00EC3398 /* switch.swift in Sources */,
 				3334248C240CE82100449DAD /* enums.swift in Sources */,
 				33C50A102407704A00345DFC /* Sequence+Numeric.swift in Sources */,
 				33C50A0D24068B2E00345DFC /* v5.1feature.swift in Sources */,
 				33B935E3240681C600C051CF /* main.swift in Sources */,
 				33C50A14240778E600345DFC /* Generic Instance Method.swift in Sources */,
+				336A63FF2419DDE300EC3398 /* Combine.swift in Sources */,
 				33C50A192407BB8100345DFC /* Typealias.swift in Sources */,
 				33C50A172407AF1B00345DFC /* Protocol.swift in Sources */,
 			);
