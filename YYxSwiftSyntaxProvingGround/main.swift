@@ -23,6 +23,7 @@ import Foundation
 
 //example_Some_returnProtocol()
 //exampleOfEnumInit()
-exampleEnumWithAssociatedValuesParameter()
+//exampleEnumWithAssociatedValuesParameter()
+examplePropertyWrapper()
 
 
