@@ -35,3 +35,29 @@ func exampleOfEnumInit() {
      let selectedOrder = DisplayOrderType.alphabetical
     print(selectedOrder.text)
 }
+func exampleEnumWithAssociatedValuesParameter(){
+    //https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html
+    //Associated Values
+
+    enum Barcode {
+        case upc(Int, Int, Int, Int)
+        case qrCode(String)
+    }
+    
+    var productBarcode = Barcode.upc(8, 85909, 51226, 3)
+//    productBarcode = .qrCode("ABCDEFGHIJKLMNOP")
+
+//    switch productBarcode {
+//    case let .upc(numberSystem, manufacturer, product, check):
+//        print("UPC : \(numberSystem), \(manufacturer), \(product), \(check).")
+//    case let .qrCode(productCode):
+//        print("QR code: \(productCode).")
+//    }
+    //上下同意，揭示幫參數命名
+    switch productBarcode {
+    case .upc(let numberSystem, let manufacturer, let product, let check):
+        print("UPC: \(numberSystem), \(manufacturer), \(product), \(check).")
+    case .qrCode(let productCode):
+        print("QR code: \(productCode).")
+    }
+}
