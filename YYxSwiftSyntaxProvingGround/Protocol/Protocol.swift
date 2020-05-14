@@ -69,3 +69,13 @@ func example_Some_returnProtocol() {
     print(aa)
     
 }
+func exampleOverridProtocolFunction()  {
+    class Airplane: Flyable { }
+    class Pigeon: Sound, Flyable { }
+    class Penguin: Sound { }
+
+    let pigeon = Pigeon()
+          pigeon.fly()  // prints ✈️
+          pigeon.makeSound() // prints Wow
+
+}

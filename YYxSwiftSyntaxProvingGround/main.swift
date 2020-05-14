@@ -28,31 +28,5 @@ import Foundation
 //examplePropertyWrapper()
 //exampleProjectedValue()
 
-//https://www.appcoda.com.tw/swift-protocol/
-protocol Sound {
-    func makeSound()
-}
-
-extension Sound {
-    func makeSound() {
-        print("Wow")
-    }
-}
-
-protocol Flyable {
-    func fly()
-}
-
-extension Flyable {
-    func fly() {
-        print("✈️")
-    }
-}
-
-class Airplane: Flyable { }
-class Pigeon: Sound, Flyable { }
-class Penguin: Sound { }
-
-let pigeon = Pigeon()
-      pigeon.fly()  // prints ✈️
-      pigeon.makeSound() // prints Wow
+//exampleOverridProtocolFunction()
+exampleOvrrideClassProperty()
