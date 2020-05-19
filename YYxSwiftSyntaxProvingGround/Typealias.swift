@@ -18,5 +18,5 @@ func exampleTypealias() {
         
     }
     fetchData("aaaaa", success: aa, fail: aa)
-
+    print("11")
 }
