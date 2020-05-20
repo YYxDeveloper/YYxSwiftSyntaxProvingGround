@@ -29,4 +29,9 @@ import Foundation
 //exampleProjectedValue()
 
 //exampleOverridProtocolFunction()
-exampleOvrrideClassProperty()
+//exampleOvrrideClassProperty()
+//exampleEnumWithTupe()
+//print(SimpleChineseSecretary.digits[0...3])
+//let titles = Array(SimpleChineseSecretary.digits[0...1])
+//print(titles)
+exampleHowToFindIndexInArray()
