@@ -15,7 +15,7 @@ func  exampleArrayCreateNewArray() {
 }
 func exampleHowToFindIndexInArray(){
     let arr = ["a","b","c","a"]
-
+    
     let indexOfA = arr.firstIndex(of: "a") // 0
     let indexOfB = arr.lastIndex(of: "a") // 3
     print(indexOfA)
@@ -23,3 +23,9 @@ func exampleHowToFindIndexInArray(){
     
 }
 
+func exampleArrOfArr(){
+    let array = Array<Bool>(repeating: false, count: 10)
+    let arr2 =  Array<[Bool]>(repeating: array, count: 5)
+    
+    print(arr2)
+}
