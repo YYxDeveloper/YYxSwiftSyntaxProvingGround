@@ -35,16 +35,21 @@ import Foundation
 //let titles = Array(SimpleChineseSecretary.digits[0...1])
 //print(titles)
 //exampleHowToFindIndexInArray()
-enum adigittype:String, CaseIterable{case tenThousands = "万",thousands = "千",hundreds = "百",tens = "十",units = "个"}
 
 //let aa23 = adigittype.allCases[0...3]
 //print(aa23[0].rawValue)
 //print(aa23)
 
-let values: [String] = adigittype.allCases.map { $0.rawValue }
 //print(values)
 //for value in adigittype.allCases {
 //    print(value.rawValue)
 //}
 //exampleArrOfArr()
-exampleLazyInit()
+//exampleLazyInit()
+
+
+func exampleConvertArrayType(){
+    enum adigittype:String, CaseIterable{case tenThousands = "万",thousands = "千",hundreds = "百",tens = "十",units = "个"}
+    let values: [String] = adigittype.allCases.map { $0.rawValue }
+    var stringArray = Array(0...9).map { String($0) }
+}

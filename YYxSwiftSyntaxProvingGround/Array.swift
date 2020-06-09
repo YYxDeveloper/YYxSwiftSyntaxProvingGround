@@ -29,3 +29,9 @@ func exampleArrOfArr(){
     
     print(arr2)
 }
+func exampleConvertArrayTypeWithNum(){
+    enum adigittype:String, CaseIterable{case tenThousands = "万",thousands = "千",hundreds = "百",tens = "十",units = "个"}
+    let values: [String] = adigittype.allCases.map { $0.rawValue }
+    //#2
+    var stringArray = Array(0...9).map { String($0) }
+}
