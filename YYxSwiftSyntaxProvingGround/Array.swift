@@ -35,3 +35,26 @@ func exampleConvertArrayTypeWithNum(){
     //#2
     var stringArray = Array(0...9).map { String($0) }
 }
+//[[false,true,true,false,false],[true,true,true,false,false],[false,true,true,false,false]] to ["12", "012", "12"]
+func exampleCompactMapNestBoolsToStrings()
+{
+    let cc = [[false,true,true,false,false],[true,true,true,false,false],[false,true,true,false,false]]
+
+    var arr233 = [String]()
+
+    for each in cc {
+        
+        let ss = each.enumerated().map({ (index,item) in
+            return item == true ? String(index) : nil
+        })
+        let tt = ss.compactMap({$0}).joined()
+        
+    //    print(tt)
+        arr233.append(tt)
+    }
+    
+    let result = arr233.joined(separator: ",")
+    
+    print(result)
+
+}

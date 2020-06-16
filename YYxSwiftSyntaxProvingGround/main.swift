@@ -47,4 +47,14 @@ import Foundation
 //exampleArrOfArr()
 //exampleLazyInit()
 
+//let arrs:[[String]] = [["1","2"],["3","4"],["5","6"]]
+//var arr23 = [String]()
+//for arr in arrs{
+//    let cc = arr.joined()
+//    arr23.append(String(cc))
+//}
+
+
+exampleCompactMapNestBoolsToStrings()
+
 

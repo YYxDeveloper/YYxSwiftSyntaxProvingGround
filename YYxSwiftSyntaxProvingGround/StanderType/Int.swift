@@ -13,3 +13,15 @@ func exampleCeil() {
 
     print(aa)
 }
+func exmapleDecimal(){
+    let realBonus: Double = 0.0832999999999999999
+    let scale = 4
+    var value1 = Decimal(0.0832999999999999999)
+    var value2 = Decimal(0.0832199999999999999)
+    var roundedValue1 = Decimal()
+    var roundedValue2 = Decimal()
+    NSDecimalRound(&roundedValue1, &value1, scale, NSDecimalNumber.RoundingMode.plain)
+    NSDecimalRound(&roundedValue2, &value2, scale, NSDecimalNumber.RoundingMode.plain)
+    print(roundedValue1) // returns 0.0833
+    print(roundedValue2) // returns 0.0832
+}
