@@ -46,15 +46,35 @@ import Foundation
 //}
 //exampleArrOfArr()
 //exampleLazyInit()
+struct Person {
+    let name: String
+    let address: String
+    let age: Int
+    let income: Double
+    let cars: [String]
+}
 
-//let arrs:[[String]] = [["1","2"],["3","4"],["5","6"]]
-//var arr23 = [String]()
-//for arr in arrs{
-//    let cc = arr.joined()
-//    arr23.append(String(cc))
-//}
+let peopleArray = [ Person(name:"Santosh", address: "Pune, India", age:34, income: 100000.0, cars:["i20","Swift VXI"]),
+             Person(name: "John", address:"New York, US", age: 23, income: 150000.0, cars:["Crita", "Swift VXI"]),
+             Person(name:"Amit", address:"Nagpure, India", age:17, income: 200000.0, cars:Array())]
 
 
-exampleCompactMapNestBoolsToStrings()
+//let names = peopleArray.map({ $0.name })
+//print(names)
+//
+//let aPersonArray = peopleArray.map { $0.cars }
+//print(aPersonArray)
+
+typealias men = (name:String,cars:[String])
 
 
+var man = [men]()
+var allCars = [String]()
+_ = peopleArray.map({
+    $0.cars.map({
+        allCars.append($0)
+    })
+    let aMen = men($0.name,allCars)
+    man.append(aMen)
+})
+print(man)
