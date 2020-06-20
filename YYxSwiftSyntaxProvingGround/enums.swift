@@ -38,6 +38,17 @@ func getWitchSimpleChineseDigit(type:digittype) -> (singleText:String,sentence:S
     }
     
 }
+func exampleIntConvertEnum(){
+ enum MyTimeFilter : Int {
+        case OneHour = 1
+        case OneDay = 2
+        case SevenDays = 3
+        case OneMonth = 4
+    }
+    let timeFilterSelected = MyTimeFilter(rawValue: 1)
+
+    print(timeFilterSelected!)
+}
 func exampleEnumWithTupe(){
     //    print(getWitchSimpleChineseDigit(type: .hundreds).sentence)
      let simpleChineseDigits:[(singleText:String,sentence:String)] = [("万","万个"),("千","千个"),("百","百个"),("十","十个"),("个","个")]
