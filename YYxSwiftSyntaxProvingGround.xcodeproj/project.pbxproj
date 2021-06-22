@@ -10,10 +10,12 @@
 		331C7106246D1896006741FE /* ExampleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C7105246D1896006741FE /* ExampleProtocols.swift */; };
 		331C710B246D22C2006741FE /* AboutClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C710A246D22C2006741FE /* AboutClass.swift */; };
 		3334248C240CE82100449DAD /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3334248B240CE82100449DAD /* enums.swift */; };
+		334095F424C05C09004F0E92 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334095F324C05C09004F0E92 /* String.swift */; };
 		336A63FF2419DDE300EC3398 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A63FE2419DDE300EC3398 /* Combine.swift */; };
 		336A64032419DEDF00EC3398 /* switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A64022419DEDF00EC3398 /* switch.swift */; };
 		336BBD48247E538F008B76CF /* lazying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336BBD47247E538F008B76CF /* lazying.swift */; };
 		33761C9D248F315F0034BF36 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33761C9C248F315F0034BF36 /* Int.swift */; };
+		33A269FC24BDA26400BA36E2 /* predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A269FB24BDA26400BA36E2 /* predicate.swift */; };
 		33B935E3240681C600C051CF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B935E2240681C600C051CF /* main.swift */; };
 		33BF3B5B247510F9005F2442 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BF3B5A247510F9005F2442 /* Array.swift */; };
 		33BFD7F92462BD8900FE6CF1 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BFD7F82462BD8900FE6CF1 /* Property.swift */; };
@@ -41,10 +43,12 @@
 		331C7105246D1896006741FE /* ExampleProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProtocols.swift; sourceTree = "<group>"; };
 		331C710A246D22C2006741FE /* AboutClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutClass.swift; sourceTree = "<group>"; };
 		3334248B240CE82100449DAD /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		334095F324C05C09004F0E92 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		336A63FE2419DDE300EC3398 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
 		336A64022419DEDF00EC3398 /* switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switch.swift; sourceTree = "<group>"; };
 		336BBD47247E538F008B76CF /* lazying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazying.swift; sourceTree = "<group>"; };
 		33761C9C248F315F0034BF36 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		33A269FB24BDA26400BA36E2 /* predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = predicate.swift; sourceTree = "<group>"; };
 		33B935DF240681C600C051CF /* YYxSwiftSyntaxProvingGround */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YYxSwiftSyntaxProvingGround; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B935E2240681C600C051CF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		33BF3B5A247510F9005F2442 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				33761C9C248F315F0034BF36 /* Int.swift */,
+				334095F324C05C09004F0E92 /* String.swift */,
 			);
 			path = StanderType;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 				33BFD7FA2462CE7400FE6CF1 /* Property+projectedValue.swift */,
 				3334248B240CE82100449DAD /* enums.swift */,
 				33BF3B5A247510F9005F2442 /* Array.swift */,
+				33A269FB24BDA26400BA36E2 /* predicate.swift */,
 				336A63FD2419DDBC00EC3398 /* Combine */,
 				33C50A122407785700345DFC /* Collection type */,
 				33C50A152407AEF000345DFC /* Protocol */,
@@ -252,10 +258,12 @@
 				3334248C240CE82100449DAD /* enums.swift in Sources */,
 				33C50A102407704A00345DFC /* Sequence+Numeric.swift in Sources */,
 				33C50A0D24068B2E00345DFC /* v5.1feature.swift in Sources */,
+				33A269FC24BDA26400BA36E2 /* predicate.swift in Sources */,
 				331C7106246D1896006741FE /* ExampleProtocols.swift in Sources */,
 				33B935E3240681C600C051CF /* main.swift in Sources */,
 				336BBD48247E538F008B76CF /* lazying.swift in Sources */,
 				33BF3B5B247510F9005F2442 /* Array.swift in Sources */,
+				334095F424C05C09004F0E92 /* String.swift in Sources */,
 				33C50A14240778E600345DFC /* Generic Instance Method.swift in Sources */,
 				336A63FF2419DDE300EC3398 /* Combine.swift in Sources */,
 				33C50A192407BB8100345DFC /* Typealias.swift in Sources */,
