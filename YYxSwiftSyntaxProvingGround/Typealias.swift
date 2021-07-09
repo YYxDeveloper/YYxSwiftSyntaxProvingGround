@@ -19,3 +19,18 @@ func exampleTypealias() {
     }
     fetchData("aaaaa", success: aa, fail: aa)
 }
+func example_typealias() {
+    typealias men = (name:String,cars:[String])
+
+
+    var man = [men]()
+    var allCars = [String]()
+    _ = peopleArray.map({
+        $0.cars.map({
+            allCars.append($0)
+        })
+        let aMen = men($0.name,allCars)
+        man.append(aMen)
+    })
+    print(man)
+}

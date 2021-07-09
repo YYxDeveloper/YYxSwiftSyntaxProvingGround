@@ -25,6 +25,7 @@
 		33C50A14240778E600345DFC /* Generic Instance Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C50A13240778E600345DFC /* Generic Instance Method.swift */; };
 		33C50A172407AF1B00345DFC /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C50A162407AF1B00345DFC /* Protocol.swift */; };
 		33C50A192407BB8100345DFC /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C50A182407BB8100345DFC /* Typealias.swift */; };
+		473661382697E314005CE7D4 /* Example+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473661372697E314005CE7D4 /* Example+Dictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		33C50A13240778E600345DFC /* Generic Instance Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generic Instance Method.swift"; sourceTree = "<group>"; };
 		33C50A162407AF1B00345DFC /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		33C50A182407BB8100345DFC /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		473661372697E314005CE7D4 /* Example+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example+Dictionary.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				33B935E2240681C600C051CF /* main.swift */,
 				33761C9B248F31430034BF36 /* StanderType */,
+				473661362697E2B7005CE7D4 /* AboutDictionary */,
 				336BBD46247E5372008B76CF /* Keyword */,
 				331C7109246D22B5006741FE /* AboutClass */,
 				336A64002419DE9E00EC3398 /* controlflow */,
@@ -191,6 +194,14 @@
 				33C50A0E2407700600345DFC /* Numeric Protocols  */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		473661362697E2B7005CE7D4 /* AboutDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				473661372697E314005CE7D4 /* Example+Dictionary.swift */,
+			);
+			path = AboutDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				33A269FC24BDA26400BA36E2 /* predicate.swift in Sources */,
 				331C7106246D1896006741FE /* ExampleProtocols.swift in Sources */,
 				33B935E3240681C600C051CF /* main.swift in Sources */,
+				473661382697E314005CE7D4 /* Example+Dictionary.swift in Sources */,
 				336BBD48247E538F008B76CF /* lazying.swift in Sources */,
 				33BF3B5B247510F9005F2442 /* Array.swift in Sources */,
 				334095F424C05C09004F0E92 /* String.swift in Sources */,
@@ -393,7 +405,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = B32F5DQVLG;
+				DEVELOPMENT_TEAM = T7L9G3ZBL9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -406,7 +418,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = B32F5DQVLG;
+				DEVELOPMENT_TEAM = T7L9G3ZBL9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
